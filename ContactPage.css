@@ -1,0 +1,125 @@
+/* Header */
+.site-header {
+    background-color: #333; /* Exempel på bakgrundsfärg */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Hamburger Menu */
+  .hamburger-menu {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hamburger-menu .line {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+  }
+  
+  /* Navigation */
+  .main-nav {
+    display: none; /* Döljer navigeringen som standard */
+  }
+  
+  .main-nav.active {
+    display: block; /* Visar navigeringen när den är aktiv */
+    background-color: #333; /* Bakgrundsfärg för navigeringsmenyn */
+    padding: 10px;
+  }
+  
+  .main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-nav ul li {
+    margin: 10px 0;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: red; /* Ändrar färg när musen är över */
+  }
+  
+  /* Main Content */
+  .content {
+    padding: 20px;
+    background-color: #f9f9f9; /* Bakgrundsfärg för main content */
+  }
+  
+  .overlay {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overlay h2 {
+    font-size: 28px;
+    margin-top: 0;
+  }
+  
+  .overlay p {
+    font-size: 18px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin: 10px 0 5px;
+  }
+  
+  form input,
+  form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: red; /* Ändrar bakgrundsfärg när musen är över */
+  }
+  
+  /* Image */
+  #slump-banner {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  

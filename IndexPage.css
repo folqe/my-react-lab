@@ -1,0 +1,33 @@
+/* Standard länkstil */
+.nav-link {
+  color: black; /* Standardfärg */
+  transition: color 0.3s ease; /* Gör färgändring smidig */
+}
+
+.nav-link:hover {
+  color: red; /* Färg när musen är över */
+}
+
+/* Aktiv hamburgermeny */
+.hamburger-menu.active {
+  background-color: #444; /* Bakgrundsfärg för aktiv hamburgermeny */
+  /* Lägg till andra stilar om du vill */
+}
+
+/* Aktiv navigation */
+.main-nav.active {
+  display: block; /* Visar navigeringen när den är aktiv */
+  background-color: #333; /* Bakgrundsfärg för aktiv navigation */
+  padding: 10px;
+  border-radius: 5px; /* Rundade hörn */
+}
+
+/* Länkar i aktiv navigering */
+.main-nav .nav-link {
+  color: white; /* Färg på länkarna i navigeringen */
+  text-decoration: none; /* Ta bort understrykning från länkar */
+}
+
+.main-nav .nav-link:hover {
+  color: red; /* Färg när musen är över länkarna i navigeringen */
+}
